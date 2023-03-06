@@ -1,4 +1,5 @@
 class BinarySearchTree {
+    Node root;
     static class Node{
         int key;
         Node left , right;
@@ -8,7 +9,6 @@ class BinarySearchTree {
             left = right = null;
         }
     }
-    Node root;
 
     public BinarySearchTree() {
         this.root = null;
